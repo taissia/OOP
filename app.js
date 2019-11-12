@@ -31,8 +31,13 @@ sisu = document.links[0].className; // lingi class
 sisu = document.links[0].classList[1]; // klasside massiiv ja sealt elemendi lugemine
 
 //pildid
-
 sisu = document.images;
+
+//scriptid
+sisu = document.scripts; // mitu scripti
+sisu = document.scripts[0].getAttribute('src'); // materialize js
+sisu = document.scripts[1].getAttribute('src'); // lokaalne js
+
 
 
 console.log(sisu);
