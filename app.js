@@ -18,4 +18,11 @@ sisu.style.color = '#fff';
 sisu.style.padding = '5px';
 // sisu.style.display = 'none';
 
+// sisu muutmine
+
+sisu.textContent = 'Minu Ülesanded';
+sisu.innerText = 'Just minu ülesanded';
+
+sisu.innerHTML = '<span style="color:green">Tegemata</span>'
+
 console.log(sisu);
