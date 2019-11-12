@@ -17,4 +17,11 @@ sisu = document.URL;
 sisu = document.characterSet; 
 sisu = document.contentType;
 
+// formi andmed
+sisu = document.forms; // kõik formid
+sisu = document.forms[0]; // esimene form 
+sisu = document.forms[0].id; //esimese formi ID
+sisu = document.forms[0].method;
+sisu = document.forms[0].action;
+
 console.log(sisu);
