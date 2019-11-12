@@ -1,43 +1,21 @@
-// document
+// docemnt meetodid
+// single element selectors
 
-let sisu;
-
-sisu = document; // sisu HTMLis
-sisu = document.all; // HTML tagid kasutamisjärjekorras
-sisu =  document.all[2]; // konkreetne HTML tag
-sisu = document.all.length; // palju on HTMl tagi kasutamisel
-
-// dokumendi omadused
-
-sisu = document.head; // head sisu
-sisu = document.body; //body sisu
-sisu = document.doctype; // doctype
-sisu = document.domain;
-sisu = document.URL;
-sisu = document.characterSet; 
-sisu = document.contentType;
-
-// formi andmed
-sisu = document.forms; // kõik formid
-sisu = document.forms[0]; // esimene form 
-sisu = document.forms[0].id; //esimese formi ID
-sisu = document.forms[0].method;
-sisu = document.forms[0].action;
-
-// lingide andmed
-sisu = document.links; // küik lingid
-sisu = document.links[0]; // esimene link
-sisu = document.links[0].className; // lingi class
-sisu = document.links[0].classList[1]; // klasside massiiv ja sealt elemendi lugemine
-
-//pildid
-sisu = document.images;
-
-//scriptid
-sisu = document.scripts; // mitu scripti
-sisu = document.scripts[0].getAttribute('src'); // materialize js
-sisu = document.scripts[1].getAttribute('src'); // lokaalne js
+sisu = document.getElementById('add-task'); // HTML sisu
+sisu = document.getElementById('add-task').id; //id
+sisu = document.getElementById('add-task').className;
 
 
+sisu = document.getElementById('title');
+id = document.getElementById('title').id;
+klass = document.getElementById('title').className;
+
+// stiliseerimine
+
+sisu.style.background = '#333';
+document.getElementById('title').style.background = '#eee';
+sisu.style.color = '#fff';
+sisu.style.padding = '5px';
+// sisu.style.display = 'none';
 
 console.log(sisu);
